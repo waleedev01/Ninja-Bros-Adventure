@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.GUI.HighScore">
+  <grid id="27dc6" binding="pnlScore" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="f7a29" binding="pnlControl" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ae400" class="javax.swing.JLabel" binding="lblPlayerName">
+            <constraints/>
+            <properties>
+              <text value="Name:"/>
+            </properties>
+          </component>
+          <component id="e2eff" class="javax.swing.JTextField" binding="txtName">
+            <constraints/>
+            <properties>
+              <columns value="6"/>
+            </properties>
+          </component>
+          <component id="6278c" class="javax.swing.JLabel" binding="lblScore">
+            <constraints/>
+            <properties>
+              <maximumSize width="50" height="16"/>
+              <text value="Score:"/>
+            </properties>
+          </component>
+          <component id="6b74b" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <enabled value="false"/>
+              <horizontalTextPosition value="2"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9237" class="javax.swing.JLabel" binding="lblHealth">
+            <constraints/>
+            <properties>
+              <text value="Health"/>
+            </properties>
+          </component>
+          <component id="6fc" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8a0c6" class="javax.swing.JButton" binding="btnSave">
+            <constraints/>
+            <properties>
+              <text value="SAVE"/>
+            </properties>
+          </component>
+          <component id="d260" class="javax.swing.JButton" binding="btnCancel">
+            <constraints/>
+            <properties>
+              <text value="CANCEL"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="6adfe" binding="scrollScores">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="111a6" class="javax.swing.JList" binding="listScores">
+            <constraints/>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
